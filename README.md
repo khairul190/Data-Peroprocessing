@@ -131,11 +131,12 @@ Imputasi dengan median / mean digunakan pada data numerik, idenya kita mengganti
 
   (catatan : Jika distribusi data cukup skewed (menceng kanan atau kiri), atau terdapat nilai nilai ekstrim, median lebih di sarankan daripada mean)
 
-Alternatifnya, kita pun dapat membedakan imputasi berdasarkan variabel kategorik tertentu, misalnya untuk yang penderita diabetes, akan diimputasi dengan rata rata dari penderita diabetes, dan sebaliknya
+  Alternatifnya, kita pun dapat membedakan imputasi berdasarkan variabel kategorik tertentu, misalnya untuk yang penderita diabetes, akan diimputasi dengan rata rata dari penderita diabetes, dan sebaliknya
 
 - Multivariate Imputation
-Single Imputation
-Metode metode yang dapat digunakan adalah memprediksi nilai missing dengan menggunakan metode metode supervised learning seperti kNN, regresi linear, regresi logistik (untuk data kategorik)
+
+  Single Imputation
+  Metode metode yang dapat digunakan adalah memprediksi nilai missing dengan menggunakan metode metode supervised learning seperti kNN, regresi linear, regresi logistik (untuk data kategorik)
 
 Kasus Lainnya
 Salah satu cara menangani missing value pada data kategorik dapat dijadikan level tersendiri
