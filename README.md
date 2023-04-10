@@ -145,8 +145,8 @@ Salah satu cara menangani missing value pada data kategorik dapat dijadikan leve
 
 missing value pada data Time Series, imputasi dapat dilakukan dengan:
 
-mengisi nilai yang missing dengan nilai sebelumnya yang tidak missing, sering disebut juga dengan Last Observation Carried Forward (LOCF) ataupun dengan nilai selanjutnya yang tidak missing, sering disebut juga Next Observation Carried Backward (NOCB)
+- mengisi nilai yang missing dengan nilai sebelumnya yang tidak missing, sering disebut juga dengan Last Observation Carried Forward (LOCF) ataupun dengan nilai selanjutnya yang tidak missing, sering disebut juga Next Observation Carried Backward (NOCB)
 
-Menggunakan Interpolasi Linear
+- Menggunakan Interpolasi Linear
 
-Menggunakan Interpolasi Linear dengan memperhitungkan tren seasonal
+- Menggunakan Interpolasi Linear dengan memperhitungkan tren seasonal
