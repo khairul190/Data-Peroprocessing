@@ -31,3 +31,39 @@ Preprocessing yang berbeda akan menghasilkan kesimpulan/insight yang berbeda.
     - variable selection (domain knowledge/automatic)
     - Feature Engineering
     - Variable reduction
+
+# Removing Duplicate Data
+- Banyak di temukan di sistem Big Data.
+- mempengaruhi model dan analisa yang berdasarkan frekuensi.
+- Terkadang kita sengaja membuat duplikasi (misal pada kasus imbalanced learning).
+
+# Noisy Data
+Noise dapat terjadi karena:
+- Kesalahan instrumen pengukuran: Misal di alat IoT pada saat cuaca buruk/baterai yang lemah.
+- Kesalahan input/entry
+- Transmisi yang tidak sempurna
+- inkonsistensi penamaan
+
+# Outliers
+- Data yang memiliki karakteristik secara signifikan berbeda dengan kebanyakan data lainnya menurut suatu kriteria tertentu yang ditetapkan.
+- Datanya valid (bukan Noise)
+di Big Data sangat umum terjadi.
+Apa yang sebaiknya dilakukan ke outliers?
+
+
+# Univariate Outliers
+- Quartiles (Boxplot)
+- Asumsi Normal
+- Asumsi distribusi lain
+
+# Multivariate Outliers
+- Clustering (DBSCAN)
+- Isolation Forest
+
+## Perbandingan beberapa metode pendeteksian outliers (multivariate):
+
+ http://scikit-learn.org/stable/auto_examples/applications/plot_outlier_detection_housing.html#sphx-glr-auto-examples-applications-plot-outlier-detection-housing-py&nbsp;
+http://scikit-learn.org/stable/auto_examples/covariance/plot_outlier_detection.html#sphx-glr-auto-examples-covariance-plot-outlier-detection-py
+http://scikit-learn.org/stable/auto_examples/neighbors/plot_lof.html#sphx-glr-auto-examples-neighbors-plot-lof-py
+http://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#sphx-glr-auto-examples-preprocessing-plot-all-scaling-py
+https://blog.dominodatalab.com/topology-and-density-based-clustering/
