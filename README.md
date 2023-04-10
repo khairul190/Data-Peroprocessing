@@ -113,7 +113,7 @@ Setelah kita mengenali apa itu missing value, bagaimana biasanya missing value i
 ## Menghindari data dengan missing value
 yaitu drop data / menghapus data yang mengandung missing value ataupun menghapus variabel yang memiliki banyak sekali missing value
 
-## Cara menghapus data inipun ada beberapa macam
+Cara menghapus data inipun ada beberapa macam
 - Listwise Deletion, yaitu menghapus row yang mempunyai satu atau lebih missing
 - Pairwise Deletion, yaitu hanya menghapus missing value pada variabel variabel yang ingin digunakan, misal kita ingin mencari korelasi antara glucose_conc dan diastolic_bp, kita hanya perlu menghapus row berikut ini
 - Menghapus variabel, yaitu membuang variabel jika data pada kolom tersebut banyak sekali yang missing, misalkan hampir 50%.
