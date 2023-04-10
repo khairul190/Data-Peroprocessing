@@ -10,3 +10,12 @@ Preprocessing yang berbeda akan menghasilkan kesimpulan/insight yang berbeda.
 - Data Cleaning : Duplikasi, Noise dan Outliers
 - Transformasi Data
 - Dimensional Reduction
+
+# Mengapa perlu preprocessing?
+- Data di dunia nyata biasanya tidak sebersih/indah data di buku akademik.
+  - Noise: Misal gaji bernilai negatif
+  - Ouliers: Misal seseorang dengan penghasilan >500 juta/bulan.
+  - Duplikasi: Banyak di media sosial
+  - Encodings, dsb: Banyak di Big Data, karena masalah bagaimana data disimpan/join.
+- Tidak lengkap: hanya agregat, kurang variabel penting, dsb.
+- Analisa pada data yang tidak di preprocess biasanya menghasilkan insight yang tidak/kurang tepat.
