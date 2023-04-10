@@ -19,3 +19,15 @@ Preprocessing yang berbeda akan menghasilkan kesimpulan/insight yang berbeda.
   - Encodings, dsb: Banyak di Big Data, karena masalah bagaimana data disimpan/join.
 - Tidak lengkap: hanya agregat, kurang variabel penting, dsb.
 - Analisa pada data yang tidak di preprocess biasanya menghasilkan insight yang tidak/kurang tepat.
+
+# Beberapa langkah utama:
+1. Data Gathering:
+    - Data warehouse, database, web crawling/scrapping/streaming.
+    - Identifikasi, ekstraksi, dan integrasi data
+2. Data Cleaning:
+3. Transformasi data (misal encoding var kategorik)
+4. Normalisasi/standarisasi
+5. Data reduction:
+    - variable selection (domain knowledge/automatic)
+    - Feature Engineering
+    - Variable reduction
