@@ -136,6 +136,7 @@ Imputasi dengan median / mean digunakan pada data numerik, idenya kita mengganti
 - Multivariate Imputation
 
   Single Imputation
+  
   Metode metode yang dapat digunakan adalah memprediksi nilai missing dengan menggunakan metode metode supervised learning seperti kNN, regresi linear, regresi logistik (untuk data kategorik)
 
 Kasus Lainnya
