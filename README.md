@@ -127,7 +127,8 @@ Ataupun jika ada beberapa kolom yang tidak memberikan informasi apa apa, kita da
 Kita dapat menggantikan missing value tersebut dengan suatu nilai, ada beberapa metode dalam mengimputasi missing value
 - Univariate Imputation
 Imputasi dengan median / mean / modus
-Imputasi dengan median / mean digunakan pada data numerik, idenya kita mengganti missing value pada kolom dengan median / mean dari data yang tidak missing, sedangkan imputasi dengan modus digunakan pada data kategorik.
+
+  Imputasi dengan median / mean digunakan pada data numerik, idenya kita mengganti missing value pada kolom dengan median / mean dari data yang tidak missing, sedangkan imputasi dengan modus digunakan pada data kategorik.
 
   (catatan : Jika distribusi data cukup skewed (menceng kanan atau kiri), atau terdapat nilai nilai ekstrim, median lebih di sarankan daripada mean)
 
@@ -139,7 +140,7 @@ Imputasi dengan median / mean digunakan pada data numerik, idenya kita mengganti
   
   Metode metode yang dapat digunakan adalah memprediksi nilai missing dengan menggunakan metode metode supervised learning seperti kNN, regresi linear, regresi logistik (untuk data kategorik)
 
-Kasus Lainnya
+# Kasus Lainnya
 Salah satu cara menangani missing value pada data kategorik dapat dijadikan level tersendiri
 
 missing value pada data Time Series, imputasi dapat dilakukan dengan:
